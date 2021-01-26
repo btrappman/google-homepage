@@ -1,0 +1,15 @@
+body {
+    font-size: small;
+    color: #202124;
+    font-family: arial, sans-serif;
+}
+
+#viewport {
+    min-height: 100%;
+    
+}
+
+.ctr-p {
+     margin: auto;
+     min-width: 400px;
+}
