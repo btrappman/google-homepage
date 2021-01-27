@@ -32,3 +32,23 @@ body, a {
     color: #000;
     opacity: 0.75;
 }
+
+#right-menu {
+    
+    display: flex;
+    min-width: 220px;
+    float: right;
+    order: 1;
+    
+    flex: 1 1 auto;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    
+    white-space: nowrap;
+    
+    
+}
