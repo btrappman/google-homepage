@@ -34,7 +34,6 @@ body, a {
 }
 
 #right-menu {
-    
     display: flex;
     min-width: 220px;
     float: right;
@@ -52,7 +51,7 @@ body, a {
     white-space: nowrap;
 }
 
-#right-menu a, img {
+#right-menu a {
     display: inline-block;
     line-height: 24px;
     vertical-align: middle;
@@ -62,7 +61,6 @@ body, a {
 }
 
 .apps {
-    
     /* Box around image */
     display: inline-block;
     outline: none;
@@ -81,4 +79,35 @@ body, a {
 
 .apps:hover {
     opacity: .85;
+}
+
+/* Container for signin box */
+#signin {
+    display: inline-block;
+    padding: 0 0 0 15px;
+    position: relative;
+    vertical-align: middle;
+    flex: 0 0 auto;
+    
+    line-height: normal;
+    text-align: left;
+    
+    background: #fff;
+    
+}
+
+.signin {
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+}
+
+.signin:hover {
+    box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
 }
