@@ -1,77 +1,78 @@
-a {
-    text-decoration: none;
-}
-
 a:hover {
     text-decoration: underline;
 }
 
-li {
-    display: inline;
+#nav-right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 16px;
 }
 
-#navbar {
+
+#profile {
+    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    overflow: hidden;
     position: relative;
-    top: 16px;
-    font-family: arial, sans-serif;
-    font-size: 13px;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+    margin-right: 30px;
 }
 
-#left-menu {
-    margin: 7px 0 0 25px;
-}
-
-#left-menu a {
-    display: inline-block;
-    padding-top: 8px;
-    padding-right: 15px;
-    color: #000;
-    opacity: 0.75;
-}
-
-.left {
-    float: left;
-}
-
-#right-menu {
-    margin: 7px 25px 0 10px;
-}
-
-#right-menu a {
-    display: inline-block;
-    padding-top: 8px;
-    padding-right: 15px;
-    color: rgba(0,0,0,0.87);
-}
-
-.right {
-    float: right;
+#profile:hover {
+    box-shadow: 0 0 8px rgb(0 0 0 / 30%);
 }
 
 #app-launcher {
-    /* Box around image */
-    display: inline-block;
-    outline: none;
-    vertical-align: middle;
-    border-radius: 2px;
-    box-sizing: border-box;
-    height: 30px;
-    width: 30px;
-    
-    background-image: url(../images/icons.png);
-    background-size: 528px 68px;
-    background-position: -138px -37px;
     opacity: .55;
+    padding-right: 15px;
 }
 
 #app-launcher:hover {
     opacity: .85;
 }
 
-#profile {
-    display: inline;
+.right-menu {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    padding-right: 15px;
+}
+
+#nav-left {
+    display: flex;
+    float: left;
+    margin: 24px 0 0 10px;
     
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
+}
+
+.left-menu {
+    padding-left: 15px;
+    color: #000;
+    opacity: .75;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+}
+
+#searchbox {
+    width: 584px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
 }

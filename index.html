@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 
 <html>
+
     <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Style Sheets -->
 
@@ -10,77 +14,61 @@
         
         <!-- main style sheet-->
         <link href="styles/main.css" rel="stylesheet" type="text/css" media="all">
-
-        <!--Browser tab title-->
+        
+        
         <title>Googley</title>
-
+        
+        
     </head>
-
+    
     <body>
+    
+        <div id="container">
         
-        <div id="navbar">
-
-            <ul>
-                <div id="left-menu">
-                    <li class="left"><a href="">About</a></li>
-                    <li class="left"><a href="">Store</a></li>
+            <div id="nav-left">
+                
+                    <a class="left-menu" href="">About</a>
+                    <a class="left-menu" href="">Store</a>
+                
                 </div>
-                
+            
+            
+            <div id="nav-right">
 
-                <div id="right-menu">
-                    <li class="right"><img id="profile" alt="profile-pic" src="images/profile.jpeg"></li>
-                    <li class="right"><a id="app-launcher" href=""></a></li>
-                    <li class="right"><a href="">Images</a></li>
-                    <li class="right"><a href="">Gmail</a></li>   
-                </div>
+                <img id="profile" src="images/profile.jpeg" alt="profile-picture">
                 
-
-            </ul>
-
-        </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <!-- top white space
-        <div id="top-bar">
-            <div id="left-menu">
+                <!-- App launcher icon, use material.io/resources -->
+                <svg id="app-launcher" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/>
+                </svg>
                 
-                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-                
-                <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                <a class="right-menu" href="">Images</p>
+                <a class="right-menu" href="">Gmail</p>
                 
             </div>
             
-            <div id="right-menu">
-
-                <a href="https://mail.google.com/">Gmail</a>
+            <div id="main">
+                <div id="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
                 
-                <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
-
-                <a class="apps" href""></a>
-
-                <div id="signin">
-                            <a class="signin" href="" style="color: #fff; text-decoration: none">Sign in</a>
-                        </div>
-                   
-            </div> 
+                <div id="searchbox">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                    
+                </div>
+                
+            
+            </div>
+            
         </div>
 
-        <img src="images/logo.png" alt="Googley" class="logo">
-
-
-        -->
-
-
+        
+    
     </body>
-
+    
 </html>
