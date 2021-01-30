@@ -64,6 +64,8 @@ a:hover {
     display: flex;
     justify-content: center;
     margin-top: 84px;
+    margin-bottom: 20px;
+    padding-top: 109px;
 }
 
 #searchbox {
@@ -75,4 +77,28 @@ a:hover {
     border-radius: 24px;
     height: 44px;
     margin: 0 auto;
+}
+
+#searchbox:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-icon {
+    height: 20px;
+    width: 20px;
+    padding-top: 12px;
+    padding-left: 12px;
+    
+}
+
+#search-input {
+    width: 88%;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
 }
