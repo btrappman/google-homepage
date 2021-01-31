@@ -7,6 +7,7 @@ a:hover {
     flex-direction: row-reverse;
     align-items: center;
     padding-top: 16px;
+    min-width: 200px;
 }
 
 
@@ -137,4 +138,55 @@ a:hover {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+}
+
+#footer-container {
+    display: flex;
+    position: fixed;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #dadce0;
+    bottom: 0px;
+    width: 100%;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+#footer-left {
+    display: flex;
+}
+
+.footer-links {
+    color: #70757a;
+    padding-left: 27px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+#footer-center {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.carbon-neutral {
+    color: #70757a;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+#footer-right {
+    display: flex;
+    margin-right: 30px;
+}
+
+#leaf {
+    width: 21px;
+    height: 24px;
+    padding-right: 10px;
 }
