@@ -186,7 +186,9 @@ a:hover {
 }
 
 #leaf {
-    width: 21px;
-    height: 24px;
-    padding-right: 10px;
+    display: flex;
+    padding-top: 10px;
+    width: 12px;
+    height: 16px;
+    padding-right: 5px;
 }
